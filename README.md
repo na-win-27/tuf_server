@@ -1,4 +1,9 @@
-#TUF SERVER
+# TUF SERVER
+
+### Hosted Link
+
+[https://tuf-server-bpc6.onrender.com/](https://tuf-server-bpc6.onrender.com/)
+
 
 ## Overview
 
