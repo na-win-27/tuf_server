@@ -42,17 +42,33 @@ npm start
 - **Request Body:** JSON object containing code snippet and language information,stdIn.
 - **Responce:JSON Object Containg Output of the compilation
 
-- - **Endpoint:** `/genral`
+-  **Endpoint:** `/genral`
 - **Method:** POST
 - **Request Body:** JSON object containing code snippet and language information,stdIn,userName.
 
 
 
-- - **Endpoint:** `/genral`
+- **Endpoint:** `/genral`
 - **Method:** Get
 - **Request Body:**
-- - **Responce:JSON Object Containg list of saved Code Snippets and their input and output after compilation
+-  **Responce:JSON Object Containg list of saved Code Snippets and their input and output after compilation
+
+- **Endpoint:** `/genral/:id`
+- **Method:** Get
+- **Request Body:**
+-  **Responce:JSON Object Containg saved Code with id===id Snippets and their input and output after compilation
 
 
+
+- **Endpoint:** `/genral/:id`
+- **Method:** Put
+- **Request Body:**
+-  **Responce:JSON Object Containg list of saved Code Snippets and their input and output after compilation
+
+
+- **Endpoint:** `/genral`
+- **Method:** Get
+- **Request Body:** JSON object containing code snippet and language information,stdIn,userName.
+-  **Responce:JSON Object Containg list of saved Code Snippets and their input and output after compilation
 
 
