@@ -37,8 +37,22 @@ npm start
 
 ## Usage
 
-- **Endpoint:** `/compile`
+- **Endpoint:** `/judge`
 - **Method:** POST
-- **Request Body:** JSON object containing code snippet and language information.
-- **Example Request:**
+- **Request Body:** JSON object containing code snippet and language information,stdIn.
+- **Responce:JSON Object Containg Output of the compilation
+
+- - **Endpoint:** `/genral`
+- **Method:** POST
+- **Request Body:** JSON object containing code snippet and language information,stdIn,userName.
+
+
+
+- - **Endpoint:** `/genral`
+- **Method:** Get
+- **Request Body:**
+- - **Responce:JSON Object Containg list of saved Code Snippets and their input and output after compilation
+
+
+
 
