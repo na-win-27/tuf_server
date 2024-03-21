@@ -4,7 +4,7 @@
 
 
 [https://tuf-server-bpc6.onrender.com/](https://tuf-server-bpc6.onrender.com/)
-->Hosted on [render.com](https://render.com/)
+- Hosted on [render.com](https://render.com/)
 
 
 ## Overview
