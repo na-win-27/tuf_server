@@ -7,7 +7,6 @@ const User = require("./models/user.js");
 const Code = require("./models/code.js");
 const genralRoutes = require("./routes/genral.js");
 const judgeRoutes = require("./routes/judge.js");
-
 if (process.env.NODE_ENV !== "PRODUCTION") {
   require("dotenv").config({
     path: ".env",
